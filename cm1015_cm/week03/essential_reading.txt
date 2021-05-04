@@ -89,15 +89,12 @@ You should also attempt the following:
     Q2: Write down the formula for the sum of first n terms of an arithmetic series.
     A: S_n = (n/2)[ 2a + (n-1)d ]
   Exercise 12.6:
-    Q3: The sum of an arithmetic series is 270. The common difference is 1 and the first term is 4. Calculate the number of terms in the series.
+    Q3: The sum of an arithmetic series is 270. The common difference is 1 and the first term is 4. alculate the number of terms in the series.
     A: S_n = (n/2)[ 2(4) + 1(n-1)] = 270 
        ---> (n/2)[ 8 + n - 1] = 270 = (n/2)(7+n)
        ---> n(7+n) = 540 = n^2 + 7n
        ---> n^2 + 7n - 540 = 0, apply quadratic formular, a = 1, b = 7, c = -540
-       ---> n = -b +- sqr( b^2 - 4ac ) / 2a = -7 +- sqr(49 + 4(1)(540)) / 2
-              = -7 +- sqr( 49 + 2160 ) / 2 = -7 +- sqr(2209) - 2 =  -7 +- 47 - 2 = -9 +- 47
-       ---> n = -9 - 47 = -56 or n = -9 + 47 = 38, since n > 0
-       ---> n = 38
-====
-
-#TODO: check answer
+       ---> n = [ (-b) +- sqr( b^2 - 4ac ) ] / 2a = [ (-7) +- sqr(49 + 4(1)(540)) ] / 2
+              = [ (-7) +- sqr( 49 + 2160 ) ] / 2 = [ (-7) +- sqr(2209) ] / 2 =  [(-7) +- (47)] / 2
+       ---> n = (-7 - 47) / 2 = -27 or n = (-7 + 47) / 2 = 20, since n > 0
+       ---> n = 20
