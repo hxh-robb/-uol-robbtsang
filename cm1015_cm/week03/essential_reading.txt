@@ -1,0 +1,103 @@
+The Essential reading for this week is:
+
+Croft, A. and R. Davison Foundation maths. (Harlow: Pearson, 2016) 6th edition. Chapter 12 Sequences and series. 
+
+You should also attempt the following:
+
+1. on p.129, Self-assessment questions 12.2 and questions 3 and 4 of Exercise 12.2
+  Self-assessment questions 12.2:
+    Q1: What is meant by an arithmetic progression?
+    A: Arithmetic progression also called Arithmetic Sequence, in this sequence, the new term is calculated by adding a fixed amount(aka common difference) to the previous term.
+    ----
+    Q2: Give an example of a sequence that is an arithmetic progression.
+    A: a_n = a_1 + d(n-1), a_1 = 1 and d = 1 ---> {a_n} = {1,2,3,4,5,6,...}
+    ----
+    Q3: Give an exmaple of a sequence that is not an arithmetic progression.
+    A: b_n = b_1 * d^(n-1), b_1 = 1 and d = 2 ---> {b_n} = {1,2,4,8,16,...}
+  Exercise 12.2:
+    Q3: Find the 16th term of the arithmetic sequence with first term 2 and common difference 5.
+    A: a_n = 2 + 5(n-1) ---> a_16
+       = 2 + 5(16-1)
+       = 2 + 75 
+       = 77
+    ----
+    Q4: Find the 23th term of the arithmetic sequence with first term 11 and common difference -3.
+    A: a_n = 11 + (-3)(n-1) ---> a_23
+       = 11 - 3(22)
+       = 11 - 66
+       = -55
+
+2. on pp.131–2, Self-assessment questions 12.3 and question 3 of Exercise 12.3
+  Self-assessment questions 12.3:
+    Q1: Explain what it meant by a geometric sequence.
+    A: The geometric sequence is a sequence that the new term is calculated by multiplying the previous term by a fixed amount(aka common ratio).
+    ----
+    Q2: Give one example of a sequence that is a geometric sequence and one that is not.
+    A: See the answer to the Self-assessment questions 12.2 Q3 and Q2.
+    ----
+    Q3: What can you say about the terms of a geometric progression when the common ratio is 1?
+    A: All term will be same as the first term.
+    ----
+    Q4: What can you say about the terms of a geometrics progression when the common ratio is -1?
+    A: The sequence will be "bouncing" from the first term value to its opposite number over and over, aka "oscillate".
+  Exercise 12.3:
+    Q3: A geometric sequence has first term 4 and common ratio 2. Find (a) the 5th term and (b) the 11th term.
+    A: a_n = 4(2^(n-1)) --->
+      (a) a_5 = 4(2^(5-1)) = 2^2 * 2^4 = 2^(2+6)
+        = 64
+      (b) a_11 = 4(2^(11-1)) = 4 * 2^10 = 4 * 1024
+        = 4096
+
+3. on p.133, Self-assessment questions 12.4 and some questions from Exercise 12.4
+  Self-assessment question 12.4:
+    Q1: Explain what is meant by the limit of a convergent sequence.
+    A: When an infinite sequence possesses a constant finite value, it's said to convergent.
+  Exercise 12.4:
+    Q1: Find the limit of each of the following sequences, as k tends to infinity, if such a limit exists.
+      (a) x_k = k, k=1,2,3,..
+      A: lim_k->infinity(k) = divergent
+      ----
+      (b) x_k = k^2, k=1,2,3,...
+      A: lim_k->infinity(k^2) = divergent
+      ----
+      (c) x_k = 100/k, k=1,2,3,...
+      A: lim_k->infinity(100/k) = 0
+      ----
+      (d) x_k = 1/(k^2), k=1,2,3,...
+      A: lim_k->infinity(1/(k^2)) = 0
+      ----
+      (e) x_k = k+1, k=1,2,3,...
+      A: lim_k->infinity(k+1) = divergent
+      ----
+      (f) x_k = 2^k, k=1,2,3,...
+      A: lim_k->infinity(2^k) = divergent
+      ----
+      (g) x_k = (1/2)^k, k=1,2,3,...
+      A: lim_k->infinity((1/2)^k) = 0
+      ----
+      (h) x_k = 7+3/(k^2), k=1,2,3,...
+      A: lim_k->infinity(7+3/(k^2)) = 7
+      ----
+      (i) x_k = k+1/k, k=1,2,3,...
+      A: lim_k->infinity(k+1/k) = 1
+
+4. on p.137, Self-assessment questions 12.6 and question 3 of exercise 12.6.
+  Self-assessment questions 12.6
+    Q1: Explain what is meant by an arithmetic series.
+    A: If the terms of an arithmetic sequence are added, the result is known as arithmetic series.
+    ----
+    Q2: Write down the formula for the sum of first n terms of an arithmetic series.
+    A: S_n = (n/2)[ 2a + (n-1)d ]
+  Exercise 12.6:
+    Q3: The sum of an arithmetic series is 270. The common difference is 1 and the first term is 4. Calculate the number of terms in the series.
+    A: S_n = (n/2)[ 2(4) + 1(n-1)] = 270 
+       ---> (n/2)[ 8 + n - 1] = 270 = (n/2)(7+n)
+       ---> n(7+n) = 540 = n^2 + 7n
+       ---> n^2 + 7n - 540 = 0, apply quadratic formular, a = 1, b = 7, c = -540
+       ---> n = -b +- sqr( b^2 - 4ac ) / 2a = -7 +- sqr(49 + 4(1)(540)) / 2
+              = -7 +- sqr( 49 + 2160 ) / 2 = -7 +- sqr(2209) - 2 =  -7 +- 47 - 2 = -9 +- 47
+       ---> n = -9 - 47 = -56 or n = -9 + 47 = 38, since n > 0
+       ---> n = 38
+====
+
+#TODO: check answer
